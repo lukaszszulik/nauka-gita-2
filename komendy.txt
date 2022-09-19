@@ -1,0 +1,52 @@
+
+Łukasz@DESKTOP-C595STR MINGW64 /d/Kodilla/nauka-gita/nauka-gita-2 (main)
+$ npm i html-validate
+
+added 45 packages, and audited 212 packages in 10s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Łukasz@DESKTOP-C595STR MINGW64 /d/Kodilla/nauka-gita/nauka-gita-2 (main)
+$ npm install -g --save-dev html-validate
+
+added 50 packages, and audited 51 packages in 3s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Łukasz@DESKTOP-C595STR MINGW64 /d/Kodilla/nauka-gita/nauka-gita-2 (main)
+$
+
+Łukasz@DESKTOP-C595STR MINGW64 /d/Kodilla/nauka-gita/nauka-gita-2 (main)
+$ html-validate *.html
+
+D:\Kodilla\nauka-gita\nauka-gita-2\index.html
+   1:1   warning  Usage of deprecated rule "void"  deprecated-rule
+   8:1   error    Trailing whitespace              no-trailing-whitespace
+  10:1   error    Trailing whitespace              no-trailing-whitespace
+  32:1   error    Trailing whitespace              no-trailing-whitespace
+  33:1   error    Trailing whitespace              no-trailing-whitespace
+  38:1   error    Trailing whitespace              no-trailing-whitespace
+  39:1   error    Trailing whitespace              no-trailing-whitespace
+  44:1   error    Trailing whitespace              no-trailing-whitespace
+  45:1   error    Trailing whitespace              no-trailing-whitespace
+  49:1   error    Trailing whitespace              no-trailing-whitespace
+  50:1   error    Trailing whitespace              no-trailing-whitespace
+  57:1   error    Trailing whitespace              no-trailing-whitespace
+  58:1   error    Trailing whitespace              no-trailing-whitespace
+  64:17  error    Trailing whitespace              no-trailing-whitespace
+
+✖ 14 problems (13 errors, 1 warning)
+
+More information:
+  https://html-validate.org/rules/deprecated-rule.html
+  https://html-validate.org/rules/no-trailing-whitespace.html
+
+
+Łukasz@DESKTOP-C595STR MINGW64 /d/Kodilla/nauka-gita/nauka-gita-2 (main)
+$
